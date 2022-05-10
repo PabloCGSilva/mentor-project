@@ -1,5 +1,5 @@
-const signin = require('../src/signin');
-const request = require('supertest')
+import signin from '../src/signin';
+import request from 'supertest';
 
 
 test("It should response the GET method", async () => {
